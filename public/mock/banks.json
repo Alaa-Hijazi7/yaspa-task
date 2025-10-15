@@ -1,0 +1,135 @@
+[
+
+  {
+    "key": "NATIONWIDE",
+    "bankName": "Nationwide",
+    "iconName": "nationwide.svg",
+    "fastBank": true
+  },
+  {
+    "key": "RBS",
+    "bankName": "RBS",
+    "iconName": "rbs.png",
+    "fastBank": false
+  },
+  {
+    "key": "CUMBERLAND_BUILDING_SOCIETY",
+    "bankName": "Cumberland Building Society",
+    "iconName": "se/cumberland_building_society.svg",
+    "fastBank": false
+  },
+  {
+    "key": "STARLING",
+    "bankName": "Starling",
+    "iconName": "starling.svg",
+    "fastBank": true
+  },
+  {
+    "key": "REVOLUT",
+    "bankName": "Revolut",
+    "iconName": "revolut.png",
+    "fastBank": true
+  },
+  {
+    "key": "WISE",
+    "bankName": "Wise",
+    "iconName": "nl/wise.svg",
+    "fastBank": true
+  },
+  {
+    "key": "HSBC",
+    "bankName": "HSBC",
+    "iconName": "hsbc.svg",
+    "fastBank": false
+  },
+  {
+    "key": "CHASE_UK",
+    "bankName": "Chase UK",
+    "iconName": "chase.svg",
+    "fastBank": false
+  },
+  {
+    "key": "HALIFAX",
+    "bankName": "Halifax",
+    "iconName": "halifax.png",
+    "fastBank": false
+  },
+  {
+    "key": "SANTANDER",
+    "bankName": "Santander",
+    "iconName": "santander.svg",
+    "fastBank": false
+  },
+  {
+    "key": "AIB",
+    "bankName": "AIB",
+    "iconName": "aib.png",
+    "fastBank": false
+  },
+  {
+    "key": "COUTTS",
+    "bankName": "Coutts & Company",
+    "iconName": "coutts.png",
+    "fastBank": false
+  },
+  {
+    "key": "TESCO",
+    "bankName": "Tesco Bank",
+    "iconName": "tesco_bank_logo.svg",
+    "fastBank": false
+  },
+  {
+    "key": "MONZO",
+    "bankName": "Monzo",
+    "iconName": "monzo.svg",
+    "fastBank": true
+  },
+  {
+    "key": "FIRST_DIRECT",
+    "bankName": "First Direct",
+    "iconName": "first_direct_logo.png",
+    "fastBank": true
+  },
+  {
+    "key": "TSB",
+    "bankName": "TSB",
+    "iconName": "tsb.png",
+    "fastBank": true
+  },
+  {
+    "key": "CHELSEA_BUILDING_SOCIETY",
+    "bankName": "Chelsea Building Society",
+    "iconName": "clydesdale.png",
+    "fastBank": false
+  },
+  {
+    "key": "BARCLAYS",
+    "bankName": "Barclays",
+    "iconName": "barclays.png",
+    "fastBank": true
+  },
+  {
+    "key": "NATWEST",
+    "bankName": "Natwest",
+    "iconName": "natwest.png",
+    "fastBank": true
+  },
+  {
+    "key": "DANSKE",
+    "bankName": "Danske Bank",
+    "iconName": "danske.png",
+    "fastBank": false
+  },
+  {
+    "key": "BANK_OF_IRELAND",
+    "bankName": "Bank of Ireland",
+    "iconName": "boi.svg",
+    "fastBank": false
+  },
+  {
+    "key": "LLOYDS",
+    "bankName": "Lloyds",
+    "iconName": "lloyds.svg",
+    "fastBank": true
+  }
+]
