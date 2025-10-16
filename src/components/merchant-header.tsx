@@ -11,6 +11,7 @@ export function MerchantHeader() {
             src={paymentSession.logo}
             alt={paymentSession.merchantName}
             className="object-cover"
+            loading="lazy"
           />
         </div>
         <span className="font-medium text-gray-900">

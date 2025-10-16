@@ -52,6 +52,7 @@ export default function PreviewPage() {
                 src={paymentSession.logo}
                 alt={paymentSession.merchantName}
                 className="object-cover"
+                loading="lazy"
               />
             </div>
             <span className="font-medium text-gray-900">
@@ -86,6 +87,7 @@ export default function PreviewPage() {
                   width={40}
                   height={40}
                   className="object-contain"
+                  loading="lazy"
                 />
               </div>
               <span className="font-medium text-gray-900">
@@ -109,7 +111,10 @@ export default function PreviewPage() {
         </button>
       </div>
 
-      <Drawer open={isSlowBankDrawerOpen} onOpenChange={setIsSlowBankDrawerOpen}>
+      <Drawer
+        open={isSlowBankDrawerOpen}
+        onOpenChange={setIsSlowBankDrawerOpen}
+      >
         <DrawerContent className="max-w-md mx-auto">
           <DrawerHeader className="relative">
             <DrawerClose asChild>
@@ -118,11 +123,7 @@ export default function PreviewPage() {
                 className="absolute right-4 top-4 rounded-sm opacity-70 ring-offset-background transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none"
                 aria-label="Close"
               >
-                <img
-                  src="/close icon.png"
-                  alt="Close"
-                  className="h-4 w-4"
-                />
+                <img src="/close icon.png" alt="Close" className="h-4 w-4" />
               </button>
             </DrawerClose>
             <DrawerTitle className="text-xl font-bold">

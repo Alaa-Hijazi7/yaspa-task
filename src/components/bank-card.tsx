@@ -35,6 +35,7 @@ export function BankCard({ bank }: BankCardProps) {
         src={iconUrl || "/placeholder.svg"}
         alt={bank.bankName}
         className="object-contain max-h-14"
+        loading="lazy"
       />
       <span className="block w-full text-sm font-medium text-gray-900 text-center break-words whitespace-normal">
         {bank.bankName}
