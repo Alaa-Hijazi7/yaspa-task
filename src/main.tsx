@@ -1,5 +1,8 @@
 import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router";
+import { ErrorBoundary } from "react-error-boundary";
+import ErrorFallback from "./components/error-fallback";
+
 import "./index.css";
 
 import { routes } from "./routes";
@@ -9,7 +12,14 @@ const router = createBrowserRouter(routes);
 const root = document.getElementById("root")!;
 
 createRoot(root).render(
-  <PaymentProvider>
-    <RouterProvider router={router} />
-  </PaymentProvider>
+  <ErrorBoundary
+    FallbackComponent={ErrorFallback}
+    onReset={() => {
+      window.location.reload();
+    }}
+  >
+    <PaymentProvider>
+      <RouterProvider router={router} />
+    </PaymentProvider>
+  </ErrorBoundary>
 );
