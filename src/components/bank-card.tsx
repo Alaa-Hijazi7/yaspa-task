@@ -5,10 +5,9 @@ import { useNavigate } from "react-router-dom";
 
 interface BankCardProps {
   bank: Bank;
-  style: React.CSSProperties;
 }
 
-export function BankCard({ bank, style }: BankCardProps) {
+export function BankCard({ bank }: BankCardProps) {
   const iconUrl = `https://test-static.yaspa.com/banks/logos/${bank.iconName}`;
   const { setSelectedBank } = usePayment();
   const navigate = useNavigate();
@@ -20,8 +19,7 @@ export function BankCard({ bank, style }: BankCardProps) {
         setSelectedBank(bank);
         navigate("/preview");
       }}
-      className="relative flex flex-col items-center justify-center p-4 h-auto rounded-xl border-gray-200 hover:border-purple-300 hover:shadow-sm transition-all"
-      style={style}
+      className="relative flex flex-col items-center justify-center w-full p-4 h-[200px] mb-4 rounded-xl border-gray-200 hover:border-purple-300 hover:shadow-sm transition-all"
     >
       {bank.fastBank && (
         <div className="absolute top-2 right-2">
@@ -38,7 +36,7 @@ export function BankCard({ bank, style }: BankCardProps) {
         alt={bank.bankName}
         className="object-contain max-h-14"
       />
-      <span className="text-sm font-medium text-gray-900 text-center">
+      <span className="block w-full text-sm font-medium text-gray-900 text-center break-words whitespace-normal">
         {bank.bankName}
       </span>
     </Button>

@@ -13,7 +13,7 @@
     "@radix-ui/react-dialog": "^1.1.15",
     "@radix-ui/react-slot": "^1.2.3",
     "@tailwindcss/vite": "^4.1.14",
-    "@types/react-virtualized": "^9.21.30",
+    "@tanstack/react-virtual": "^3.13.12",
     "autoprefixer": "^10.4.21",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
@@ -23,7 +23,6 @@
     "react-dom": "^19.1.1",
     "react-router": "^7.9.4",
     "react-router-dom": "^7.9.4",
-    "react-virtualized": "^9.22.5",
     "tailwind-merge": "^3.3.1",
     "tailwindcss": "^4.1.14",
     "vaul": "^1.1.2"
