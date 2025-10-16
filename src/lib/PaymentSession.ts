@@ -4,7 +4,7 @@ export const PaymentSession = {
   amount: "1.00",
   reference: "test reference",
 
-  logo: "https://test-static.yaspa.com/banks/logos/monzo.svg  ",
+  logo: "https://test-static.yaspa.com/banks/logos/monzo.svg",
 };
 
 export type Bank = {
